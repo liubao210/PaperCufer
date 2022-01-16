@@ -61,7 +61,7 @@ get_query_results = function(keyword = "REITs", header = my_header, dbid = '70',
       html_element("table") %>%
       html_table()
 
-    tmp = query_results |> as.matrix() |> as.data.frame()
+    tmp = query_results %>% as.matrix() %>% as.data.frame()
     colnames(tmp) = paste0("col_", 1:dim(tmp)[2])
     paper_link_list = paste0("http://10.12.162.84/", html_nodes(content, paper_secend_url_select) %>% html_attr('href'))
 
@@ -74,11 +74,11 @@ get_query_results = function(keyword = "REITs", header = my_header, dbid = '70',
 
       paper_pdflink
     }
-    paper_pdflink_list = paper_link_list |>
+    paper_pdflink_list = paper_link_list %>%
       map(get_pdflink)
 
 
-    tmp |>
+    tmp %>%
       mutate(
         paper_link = paper_link_list,
         paper_pdflink = paper_pdflink_list
