@@ -4,7 +4,6 @@ library(purrr)
 library(httr)
 library(jsonlite)
 library(rvest)
-library(XML)
 
 
 ## 获取论文对应的唯一编码
