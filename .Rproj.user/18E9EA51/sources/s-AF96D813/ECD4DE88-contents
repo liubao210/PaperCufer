@@ -4,5 +4,5 @@
 安装方式
 ```
 # install.packages("remotes")
-remotes::install_github("liubao210/PaperCufer")
+install_github("liubao210/PaperCufer", INSTALL_opts = c("--with-keep.source", "--install-tests"))
 ```

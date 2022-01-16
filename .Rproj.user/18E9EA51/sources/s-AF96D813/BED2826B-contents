@@ -5,6 +5,7 @@ library(purrr)
 library(httr)
 library(jsonlite)
 library(rvest)
+library(XML)
 
 
 ## 根据搜索词获取列表 ====
