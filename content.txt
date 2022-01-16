@@ -1,0 +1,384 @@
+"x"
+"1" "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">
+<html xmlns=\"http://www.w3.org/1999/xhtml\">
+<head>
+<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">
+<title>无标题文档</title>
+<link rel=\"stylesheet\" type=\"text/css\" href=\"style/public.css\">
+<link rel=\"stylesheet\" type=\"text/css\" href=\"style/subject.css\">
+<script type=\"text/javascript\" src=\"js/jquery-3.2.1.js\"></script><script type=\"text/javascript\" src=\"js/glob.js\"></script><script type=\"text/javascript\" src=\"js/search.js\"></script><script type=\"text/javascript\">
+$(function(){
+	$(\"table>tbody>tr:odd\").css(\"background\",\"#f2f3f6\");
+})
+</script>
+</head>
+<body style=\"background:#FFF;\">
+<input type=\"hidden\" value=\"chi\" id=\"languagetype\"><div class=\"thesis_list\">
+			<div class=\"thesis_top\">
+            
+            
+             共 <span style=\"color:#f47a01\">24358</span> 条记录
+            </div>
+        	<table cellpadding=\"0\" cellspacing=\"0\">
+<thead>
+<input type=\"hidden\" id=\"orderstr\" name=\"orderstr\" value=\"desc\"><tr>
+<th width=\"50px;\"></th>
+<!-- 序号 -->
+                        <th width=\"340px\"></th>
+<!-- 学位论文题名 -->
+                        <th width=\"100px\"></th>
+<!-- 论文作者 -->
+                        <th width=\"90px\"></th>
+<!-- 学生类型 -->
+                        <!-- 完成日期 -->
+                         
+                        
+                        <th width=\"100px;\" onclick=\"orderby_lw('complete_date')\" style=\"cursor:pointer;\" id=\"dateth\">↓</th>
+                        
+                    </tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+                                <td>
+                                	<a href=\"docinfo.action?id1=88578a1bd98e78048f7b33ecf5d32bd7&amp;id2=FLd0FtKlwec%253D\" target=\"_blank\">
+                               			
+                               				
+                               					基于产权视角的税制改革研究
+                               				
+                               				
+                               			
+                                	</a>
+                                </td>
+                                <td>林高怡</td>
+                                <td>博士</td>
+                                <td>2021-11-23</td>
+                        	</tr>
+<tr>
+<td>2</td>
+                                <td>
+                                	<a href=\"docinfo.action?id1=a95b856c231edcb054310273e95b0a0e&amp;id2=y1CwEb9zYNM%253D\" target=\"_blank\">
+                               			
+                               				
+                               					财税政策对军民融合创新的影响研究
+                               				
+                               				
+                               			
+                                	</a>
+                                </td>
+                                <td>李娜</td>
+                                <td>博士</td>
+                                <td>2021-11-22</td>
+                        	</tr>
+<tr>
+<td>3</td>
+                                <td>
+                                	<a href=\"docinfo.action?id1=11965473611a3a2c7ea3185dcc612c2c&amp;id2=4yz%252Buz9Kc%252BY%253D\" target=\"_blank\">
+                               			
+                               				
+                               					同届独立董事的人力资本差异与等额薪酬下的激励扭曲
+                               				
+                               				
+                               			
+                                	</a>
+                                </td>
+                                <td>徐艳丽</td>
+                                <td>博士</td>
+                                <td>2021-11-22</td>
+                        	</tr>
+<tr>
+<td>4</td>
+                                <td>
+                                	<a href=\"docinfo.action?id1=c8b401f270cd3f016f7dfb83df959ae8&amp;id2=AhN5we0xKt0%253D\" target=\"_blank\">
+                               			
+                               				
+                               					品牌联合类型对新产品评价的影响机制研究
+                               				
+                               				
+                               			
+                                	</a>
+                                </td>
+                                <td>刘培</td>
+                                <td>博士</td>
+                                <td>2021-11-20</td>
+                        	</tr>
+<tr>
+<td>5</td>
+                                <td>
+                                	<a href=\"docinfo.action?id1=a114394803da7fb38812fec8cc2ab715&amp;id2=LhuE2trqz%252F8%253D\" target=\"_blank\">
+                               			
+                               				
+                               					商务信用价值链的形成机理及实证研究
+                               				
+                               				
+                               			
+                                	</a>
+                                </td>
+                                <td>冯漪</td>
+                                <td>博士</td>
+                                <td>2021-11-19</td>
+                        	</tr>
+<tr>
+<td>6</td>
+                                <td>
+                                	<a href=\"docinfo.action?id1=85ca598d4b5e17e78e238cadd0623420&amp;id2=3txgvbjwxr0%253D\" target=\"_blank\">
+                               			
+                               				
+                               					继任者创业导向、社会情感财富与家族企业跨代成长
+                               				
+                               				
+                               			
+                                	</a>
+                                </td>
+                                <td>王刚</td>
+                                <td>博士</td>
+                                <td>2021-11-17</td>
+                        	</tr>
+<tr>
+<td>7</td>
+                                <td>
+                                	<a href=\"docinfo.action?id1=236205e79f9a587fc0181964f4280367&amp;id2=TyuK2kaJZlY%253D\" target=\"_blank\">
+                               			
+                               				
+                               					中国共产党领导乡村发展的历程及经验研究
+                               				
+                               				
+                               			
+                                	</a>
+                                </td>
+                                <td>翟昕</td>
+                                <td>博士</td>
+                                <td>2021-11-16</td>
+                        	</tr>
+<tr>
+<td>8</td>
+                                <td>
+                                	<a href=\"docinfo.action?id1=0fe0febafaf625d5cba6dc7171af4622&amp;id2=ooPUZgxTVJs%253D\" target=\"_blank\">
+                               			
+                               				
+                               					多重复杂网络视角下的系统性金融风险溢出与传染研究
+                               				
+                               				
+                               			
+                                	</a>
+                                </td>
+                                <td>徐付伟</td>
+                                <td>博士</td>
+                                <td>2021-11-16</td>
+                        	</tr>
+<tr>
+<td>9</td>
+                                <td>
+                                	<a href=\"docinfo.action?id1=d59a7a3b7743fe7e1f61efd6a1fbd20c&amp;id2=npVpo44WiC4%253D\" target=\"_blank\">
+                               			
+                               				
+                               					中国政府创新补贴对企业创新的影响研究
+                               				
+                               				
+                               			
+                                	</a>
+                                </td>
+                                <td>齐永欣</td>
+                                <td>博士</td>
+                                <td>2021-10-30</td>
+                        	</tr>
+<tr>
+<td>10</td>
+                                <td>
+                                	<a href=\"docinfo.action?id1=6a338765403a729eceb911214c2a8088&amp;id2=KPROyLgJ%252BFE%253D\" target=\"_blank\">
+                               			
+                               				
+                               					爱国主义教育的仪式载体研究
+                               				
+                               				
+                               			
+                                	</a>
+                                </td>
+                                <td>陈希</td>
+                                <td>博士</td>
+                                <td>2021-10-15</td>
+                        	</tr>
+<tr>
+<td>11</td>
+                                <td>
+                                	<a href=\"docinfo.action?id1=7d9f3e54b5f4de48ec39f43a3cc76276&amp;id2=4Ex2OnOq4Ew%253D\" target=\"_blank\">
+                               			
+                               				
+                               					新时代中国特色社会主义文化自信研究
+                               				
+                               				
+                               			
+                                	</a>
+                                </td>
+                                <td>田建龙</td>
+                                <td>博士</td>
+                                <td>2021-10-15</td>
+                        	</tr>
+<tr>
+<td>12</td>
+                                <td>
+                                	<a href=\"docinfo.action?id1=f59b83fee384abc1c2209a4bfe3347c4&amp;id2=ew2XuJRnmBo%253D\" target=\"_blank\">
+                               			
+                               				
+                               					近代中国商业银行风险管理研究
+                               				
+                               				
+                               			
+                                	</a>
+                                </td>
+                                <td>李昆</td>
+                                <td>博士</td>
+                                <td>2021-10-14</td>
+                        	</tr>
+<tr>
+<td>13</td>
+                                <td>
+                                	<a href=\"docinfo.action?id1=0de78f30d87470c63d742c16ffe3111d&amp;id2=lIrTRjX%252BiS8%253D\" target=\"_blank\">
+                               			
+                               				
+                               					我国消费信贷与上市银行信用风险的关联性研究
+                               				
+                               				
+                               			
+                                	</a>
+                                </td>
+                                <td>张肇文</td>
+                                <td>硕士</td>
+                                <td>2021-10-13</td>
+                        	</tr>
+<tr>
+<td>14</td>
+                                <td>
+                                	<a href=\"docinfo.action?id1=7f172232dc8853832a4a631b2af015b9&amp;id2=seJNoDdu%252FOk%253D\" target=\"_blank\">
+                               			
+                               				
+                               					独立董事异议、股东积极主义与公司治理效率
+                               				
+                               				
+                               			
+                                	</a>
+                                </td>
+                                <td>葛秋辰</td>
+                                <td>博士</td>
+                                <td>2021-10-10</td>
+                        	</tr>
+<tr>
+<td>15</td>
+                                <td>
+                                	<a href=\"docinfo.action?id1=d4fa1c0b80e60d9a842602a371810510&amp;id2=2h3Nh5%252FUh%252Fs%253D\" target=\"_blank\">
+                               			
+                               				
+                               					基于机器学习的实证资产定价研究-以中国A股市场为例
+                               				
+                               				
+                               			
+                                	</a>
+                                </td>
+                                <td>马甜</td>
+                                <td>博士</td>
+                                <td>2021-10-10</td>
+                        	</tr>
+<tr>
+<td>16</td>
+                                <td>
+                                	<a href=\"docinfo.action?id1=9a5ee4e8cb4233471947e61d611b8225&amp;id2=vj%252F0XsDM7CI%253D\" target=\"_blank\">
+                               			
+                               				
+                               					个人所得税改革对居民消费的影响
+                               				
+                               				
+                               			
+                                	</a>
+                                </td>
+                                <td>梁欢</td>
+                                <td>硕士</td>
+                                <td>2021-10-09</td>
+                        	</tr>
+<tr>
+<td>17</td>
+                                <td>
+                                	<a href=\"docinfo.action?id1=51759a0c8ffb032c4e3044c0543b6561&amp;id2=%252FlX2efpy9JY%253D\" target=\"_blank\">
+                               			
+                               				
+                               					财政分权对中国出口贸易的影响研究
+                               				
+                               				
+                               			
+                                	</a>
+                                </td>
+                                <td>钱谦年</td>
+                                <td>硕士</td>
+                                <td>2021-10-06</td>
+                        	</tr>
+<tr>
+<td>18</td>
+                                <td>
+                                	<a href=\"docinfo.action?id1=ae07e8c68f2ddce0cd3070859432dd40&amp;id2=wPzybKQB2Uc%253D\" target=\"_blank\">
+                               			
+                               				
+                               					汽车抵押贷款资产证券化的基础资产风险分析——以德宝天元2018-1-ABS为例
+                               				
+                               				
+                               			
+                                	</a>
+                                </td>
+                                <td>李瀚莹</td>
+                                <td>硕士</td>
+                                <td>2021-10-05</td>
+                        	</tr>
+<tr>
+<td>19</td>
+                                <td>
+                                	<a href=\"docinfo.action?id1=5c694e35c4f236ff3d338ea0cfcfd37d&amp;id2=5DOCPRmsVEI%253D\" target=\"_blank\">
+                               			
+                               				
+                               					传统企业跨界连续并购转型重组绩效分析——以“世纪华通”连续并购案为例
+                               				
+                               				
+                               			
+                                	</a>
+                                </td>
+                                <td>张乃文</td>
+                                <td>硕士</td>
+                                <td>2021-10-05</td>
+                        	</tr>
+<tr>
+<td>20</td>
+                                <td>
+                                	<a href=\"docinfo.action?id1=a9c5f92270e5f071e4ecd50476c80d6a&amp;id2=triw4EfB02Q%253D\" target=\"_blank\">
+                               			
+                               				
+                               					ZS农商行疫情专项贷款的信贷流程优化研究
+                               				
+                               				
+                               			
+                                	</a>
+                                </td>
+                                <td>刘孟楷</td>
+                                <td>硕士</td>
+                                <td>2021-10-04</td>
+                        	</tr>
+</tbody>
+</table>
+<div class=\"page\">
+  	        	 
+					
+					
+						<a href=\"pagedown.action?pagenum=20&amp;pager.offset=0\"></a> <!-- 首页 -->
+					
+					
+						
+						<a href=\"pagedown.action?pagenum=20&amp;pager.offset=20\"> </a><!-- 下一页 -->
+					
+					
+						<a href=\"pagedown.action?pagenum=20&amp;pager.offset=24340\"></a><!-- 尾 页 -->
+					
+				 
+				 <span>1/1218</span>   
+                 <input type=\"text\" id=\"currentpage\" onkeydown=\"if(event.keyCode==13)  return Pagedown()\"><input type=\"hidden\" id=\"pagecount\" value=\"1218\"><input type=\"hidden\" id=\"pagenum\" value=\"20\"><a class=\"btn\" onclick=\"Pagedown()\"></a><!--确定  -->
+            </div>
+            
+        </div>
+</body>
+</html>
+"
