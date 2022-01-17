@@ -1,8 +1,0 @@
-exportPattern("^[[:alpha:]]+")
-import(dplyr)
-import(stringr)
-import(purrr)
-import(httr)
-import(jsonlite)
-import(rvest)
-import(downloader)

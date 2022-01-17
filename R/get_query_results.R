@@ -19,7 +19,7 @@ paper_pdf_url_link = "div.look > a"
 my_cookie = '179B9993F044A125F4FDDA6BFD038E13'
 
 
-get_query_results = function(keyword = "REITs", cookie = '179B9993F044A125F4FDDA6BFD038E13', dbid = '72', max_page_num_select = "body > div > div.page > span") {
+get_query_results = function(keyword = "REITs", cookie = '179B9993F044A125F4FDDA6BFD038E13', dbid = '72', max_page_num_select = "body > div > div.page > span", sleep_time = 0.5) {
   my_header = c(
     'Accept'= 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
     'Accept-Encoding'= 'gzip, deflate, br',
@@ -49,7 +49,9 @@ get_query_results = function(keyword = "REITs", cookie = '179B9993F044A125F4FDDA
   max_page_num = max(tmp_max[[1]] %>% as.numeric())
 
   # 所有查询结果
-  next_page = function(page_index = 1, page_nest_url_base = page_nest_url_base){
+  next_page = function(page_index = 1, page_nest_url_base = page_nest_url_base, sleep_time = 0.5){
+    Sys.sleep(runif(1, max = sleep_time))
+
     print(paste0("querying page: ", page_index))
     offset = (page_index - 1) * 20
     page_nest_url = str_interp(page_nest_url_base)
@@ -64,7 +66,8 @@ get_query_results = function(keyword = "REITs", cookie = '179B9993F044A125F4FDDA
     paper_link_list = paste0("http://10.12.162.84/", html_nodes(content, paper_secend_url_select) %>% html_attr('href'))
 
     ## 找出全文链接
-    get_pdflink = function(paper_link){
+    get_pdflink = function(paper_link, sleep_time = 0.5){
+      Sys.sleep(runif(1, max = sleep_time))
       res = GET(paper_link, add_headers(.headers = my_header))
       content = res %>% content()
       tmp_pdflink = html_nodes(content, paper_pdf_url_link) %>% html_attr('href')
@@ -77,7 +80,8 @@ get_query_results = function(keyword = "REITs", cookie = '179B9993F044A125F4FDDA
       map(get_pdflink)
 
 
-    get_paper_code = function(paper_link) {
+    get_paper_code = function(paper_link, sleep_time = 0.5) {
+      Sys.sleep(runif(1, max = sleep_time))
       # print(length(paper_link) == 0)
       if (length(paper_link) > 0) {
         res = GET(paper_link, add_headers(.headers = my_header))
