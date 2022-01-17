@@ -6,5 +6,5 @@
 # install.packages("remotes")
 install_github("liubao210/PaperCufer", INSTALL_opts = c("--with-keep.source", "--install-tests"))
 
-download_paper(keyword = 'REITs', cookie = 'YOURCOOKIE')
+download_paper(keyword = 'REITs', cookies = 'YOURCOOKIE')
 ```
