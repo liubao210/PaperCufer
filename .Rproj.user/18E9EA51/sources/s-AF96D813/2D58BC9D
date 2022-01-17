@@ -1,27 +1,27 @@
 {
-    "id": "527C24F6",
-    "path": "~/Desktop/PaperCufer/R/get_paper_pic.R",
-    "project_path": "R/get_paper_pic.R",
+    "id": "2D58BC9D",
+    "path": "~/Desktop/PaperCufer/R/download_paper.R",
+    "project_path": "R/download_paper.R",
     "type": "r_source",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1642325077159.0,
+    "created": 1642401395849.0,
     "source_on_save": false,
-    "relative_order": 3,
+    "relative_order": 7,
     "properties": {
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "21,31",
-        "scrollLine": "7"
+        "cursorPosition": "10,45",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1642403566,
+    "lastKnownWriteTime": 1642403088,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1642403566412,
+    "last_content_update": 1642403088236,
     "read_only": false,
     "read_only_alternatives": []
 }
