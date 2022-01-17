@@ -87,7 +87,7 @@ get_query_results = function(keyword = "REITs", cookie = '179B9993F044A125F4FDDA
         res = GET(paper_link, add_headers(.headers = my_header))
         content = res %>% content()
         piclink_tmp = html_nodes(content, paper_code_select) %>% html_attr('src')
-        piclink = if_else(nchar(piclink_tmp[1]) > 0, (strsplit(piclink_tmp[1], "P01_0") |> as.list())[[1]][1], "")
+        piclink = if_else(nchar(piclink_tmp[1]) > 0, (strsplit(piclink_tmp[1], "P01_0") %>% as.list())[[1]][1], "")
 
         piclink
       } else {
