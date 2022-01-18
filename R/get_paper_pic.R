@@ -7,15 +7,13 @@ library(rvest)
 library(downloader)
 
 
-paper_code_select = "div.loadingBg > img"
-
 my_cookie = '179B9993F044A125F4FDDA6BFD038E13'
-
 
 ## 获取论文对应的唯一编码
 get_paper_pic = function(paper_piclink, paper_name, paper_index, cookie = '179B9993F044A125F4FDDA6BFD038E13', sleep_time = 0.5){
   Sys.sleep(runif(1, max = sleep_time))
 
+  paper_code_select = "div.loadingBg > img"
   my_header = c(
     'Accept'= 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
     'Accept-Encoding'= 'gzip, deflate, br',

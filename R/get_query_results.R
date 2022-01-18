@@ -8,18 +8,17 @@ library(rvest)
 
 
 ## 根据搜索词获取列表 ====
-url_base = 'http://10.12.162.84/simpsearch.action'
-query_url_base = 'http://10.12.162.84/resultlist.jsp'
-page_next_url_base = 'http://10.12.162.84/pagedown.action?pager.offset=${offset}'
-
-max_page_num_select = "body > div > div.page > span"
-paper_secend_url_select = "body > div > table > tbody > tr > td > a"
-paper_pdf_url_link = "div.look > a"
-
 my_cookie = '179B9993F044A125F4FDDA6BFD038E13'
 
 
 get_query_results = function(keyword = "REITs", cookie = '179B9993F044A125F4FDDA6BFD038E13', dbid = '72', max_page_num_select = "body > div > div.page > span", sleep_time = 0.5) {
+  url_base = 'http://10.12.162.84/simpsearch.action'
+  query_url_base = 'http://10.12.162.84/resultlist.jsp'
+  page_next_url_base = 'http://10.12.162.84/pagedown.action?pager.offset=${offset}'
+  max_page_num_select = "body > div > div.page > span"
+  paper_secend_url_select = "body > div > table > tbody > tr > td > a"
+  paper_pdf_url_link = "div.look > a"
+
   my_header = c(
     'Accept'= 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
     'Accept-Encoding'= 'gzip, deflate, br',
