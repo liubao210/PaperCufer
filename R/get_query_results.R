@@ -18,6 +18,7 @@ get_query_results = function(keyword = "REITs", cookie = '179B9993F044A125F4FDDA
   max_page_num_select = "body > div > div.page > span"
   paper_secend_url_select = "body > div > table > tbody > tr > td > a"
   paper_pdf_url_link = "div.look > a"
+  paper_code_select = "div.loadingBg > img"
 
   my_header = c(
     'Accept'= 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
