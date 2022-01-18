@@ -11,7 +11,7 @@ my_cookie = '179B9993F044A125F4FDDA6BFD038E13'
 
 ## 获取论文对应的唯一编码
 get_paper_pic = function(paper_piclink, paper_name, paper_index, cookie = '179B9993F044A125F4FDDA6BFD038E13', sleep_time = 0.5){
-  print(paste0("No.", as.character(paper_index), " ", paper_name, " downloading -", " cookie: ", cookie))
+  # print(paste0("No.", as.character(paper_index), " ", paper_name, " downloading - cookie: ", cookie))
   Sys.sleep(runif(1, max = sleep_time))
 
   paper_code_select = "div.loadingBg > img"
@@ -42,7 +42,7 @@ get_paper_pic = function(paper_piclink, paper_name, paper_index, cookie = '179B9
     Sys.sleep(runif(1, max = sleep_time))
     i = i + 1
     pic_link_tmp = paste0(paper_piclink, "P01_", sprintf("%05d", i), ".jpg")
-    print(paste0("No.", as.character(paper_index), " ", paper_name, " downloading - picurl: ", pic_link_tmp))
+    # print(paste0("No.", as.character(paper_index), " ", paper_name, " downloading - picurl: ", pic_link_tmp))
     tryCatch({
       download.file(pic_link_tmp, paste0(tmp_path, sprintf("/picture_%05d", i),".jpg"), quiet = TRUE, headers = my_header)
     }, error = function(e) {
