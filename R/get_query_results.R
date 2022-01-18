@@ -48,13 +48,13 @@ get_query_results = function(keyword = "REITs", cookie = '179B9993F044A125F4FDDA
   max_page_num = max(tmp_max[[1]] %>% as.numeric())
 
   # 所有查询结果
-  next_page = function(page_index = 1, page_nest_url_base = page_nest_url_base, sleep_time = 0.5){
+  next_page = function(page_index = 1, page_next_url_base = page_next_url_base, sleep_time = 0.5){
     Sys.sleep(runif(1, max = sleep_time))
 
     print(paste0("querying page: ", page_index))
     offset = (page_index - 1) * 20
-    page_nest_url = str_interp(page_nest_url_base)
-    res = GET(page_nest_url, add_headers(.headers = my_header))
+    page_next_url = str_interp(page_next_url_base)
+    res = GET(page_next_url, add_headers(.headers = my_header))
     content = res %>% content()
     query_results = content %>%
       html_element("table") %>%
@@ -106,7 +106,7 @@ get_query_results = function(keyword = "REITs", cookie = '179B9993F044A125F4FDDA
   }
 
   query_results = c(1:max_page_num) %>%
-    map_dfr(~ next_page(., page_nest_url_base))
+    map_dfr(~ next_page(., page_next_url_base))
 
   query_results
 }
